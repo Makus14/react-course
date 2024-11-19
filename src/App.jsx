@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Header/>
       <main>
         <section id="core-concepts">
           <h2>Core Concepts</h2>
@@ -54,23 +54,27 @@ function App() {
           <menu>
             <TabButton 
               isSelected={selectedTopic === 'components'} 
-              onSelect={() => handleSelect('components')}>
-                Components
+              onSelect={() => handleSelect('components')}
+            >
+              Components
             </TabButton>
             <TabButton 
               isSelected={selectedTopic === 'jsx'} 
-              onSelect={() => handleSelect('jsx')}>
-                JSX
+              onSelect={() => handleSelect('jsx')}
+            >
+              JSX
             </TabButton>
             <TabButton 
               isSelected={selectedTopic === 'props'} 
-              onSelect={() => handleSelect('props')}>
-                Props
+              onSelect={() => handleSelect('props')}
+            >
+              Props
             </TabButton>
             <TabButton 
               isSelected={selectedTopic === 'state'} 
-              onSelect={() => handleSelect('state')}>
-                State
+              onSelect={() => handleSelect('state')}
+            >
+              State
             </TabButton>
           </menu>
           {tabContent}
