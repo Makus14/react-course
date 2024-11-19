@@ -1,11 +1,11 @@
 import './TabButton.css'
 
-export default function TabButton({ children, onSelect, isSelected }) {
+export default function TabButton({ children, isSelected, ...prors }) {
   return (
     <li>
       <button 
         className={ isSelected ? "active" : undefined } 
-        onClick={onSelect}
+        {...prors}
       >
         {children}
       </button>

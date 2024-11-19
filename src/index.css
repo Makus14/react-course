@@ -32,22 +32,6 @@ main h2 {
   color: #a18aba;
 }
 
-#examples {
-  margin: 3rem auto;
-}
-
-#examples h2 {
-  text-align: left;
-}
-
-#examples menu {
-  margin: 1rem 0;
-  padding: 0;
-  display: flex;
-  gap: 0.5rem;
-  list-style: none;
-}
-
 #examples menu button {
   padding: 0.5rem 1rem;
   border: none;
